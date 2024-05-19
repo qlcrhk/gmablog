@@ -1,0 +1,71 @@
+.game-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.game-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.game-poster img {
+    width: 100%;
+    height: auto;
+}
+
+.card-text {
+    padding: 1rem;
+    text-align: center;
+}
+
+.add-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.game-wrapper {
+    background-color: white;
+    padding: 1em;
+    width: 50%;
+    height: 230px;
+}
+
+
+
+.game-wrapper input {
+    width: 80%;
+    border-radius: 5px;
+}
+
+.btn-box Button {
+    margin: 0.5em;
+}
+
+.game-box{
+    width: 80%;
+    margin: 0 auto;
+}
+.game-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 20px;
+
+}
+
+.game-list .game-card{
+    width: 100%;
+}
